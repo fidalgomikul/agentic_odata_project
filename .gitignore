@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Testing and linting caches ---
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Secrets and local config ---
+.env
+.env.*
+!.env.example
+*.pem
+
+# --- Editors and OS files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Docker (local only) ---
+docker-compose.override.yml
