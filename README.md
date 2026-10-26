@@ -1,6 +1,6 @@
 # Northwind OData MCP Server
 
-![CI](https://github.com/<your-github-username>/<repo-name>/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/fidalgomikul/agentic_odata_project//actions/workflows/ci.yml/badge.svg)
 
 An [MCP](https://modelcontextprotocol.io) server that lets an AI agent query the public
 Northwind OData service in plain language. It exposes four read-only tools (customers, orders,
